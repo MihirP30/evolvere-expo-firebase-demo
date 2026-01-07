@@ -18,7 +18,7 @@ export default function HomeScreen() {
       }>
       <ThemedView style={styles.stepContainer}>
         <Link href="/auth">
-          <ThemedText type="subtitle">Go to Auth</ThemedText>
+          <ThemedText type="subtitle">Sign In</ThemedText>
         </Link>
       </ThemedView>
     </ParallaxScrollView>
@@ -32,8 +32,9 @@ const styles = StyleSheet.create({
     gap: 8,
   },
   stepContainer: {
-    gap: 8,
-    marginBottom: 8,
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   reactLogo: {
     height: 178,
