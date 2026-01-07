@@ -13,12 +13,12 @@ import { getAuth } from "firebase/auth";
 */
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAk_vbSWh8fVeXH4bgHbEekeNJJT_9zTqg",
-  authDomain: "expo-demo-c541c.firebaseapp.com",
-  projectId: "expo-demo-c541c",
-  storageBucket: "expo-demo-c541c.firebasestorage.app",
-  messagingSenderId: "1072298271264",
-  appId: "1:1072298271264:web:c2708e55a3117332c0d245"
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: ""
 };
 
 const app = initializeApp(firebaseConfig);
